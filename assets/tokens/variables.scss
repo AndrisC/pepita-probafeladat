@@ -1,0 +1,31 @@
+//Font size variables
+@import "../mixins/_mixins";
+
+$jumbo:            72px;
+$title:            60px;
+$heading_1:        45px;
+$heading_2:        30px;
+$heading_3:        24px;
+$heading_4:        18px;
+$body:             16px;
+$paragraph_small:  14px;
+$paragraph_xsmall: 12px;
+
+//Spacing variables
+$space-xxl: 128px;
+$space-xl:  64px;
+$space-l:   48px;
+$space-m:   24px;
+$space-s:   12px;
+$space-xs:  6px;
+$space-xxs: 4px;
+
+//Color variables
+$primary-color:     #FF473A;
+
+$color-grey:        #D4D4D4;
+$color-grey-light:  #F4F5F2;
+
+$font-color: #030E12;
+$font-color-light: rgba(3, 14, 18, 0.8);
+$font-color-lighter: rgba(3, 14, 18, 0.5);

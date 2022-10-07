@@ -1,0 +1,21 @@
+h1 {
+  @include responsive-font(8vw, 42px, $jumbo, $jumbo);
+}
+h2 {
+  @include responsive-font(5vw, 30px, $title, $title);
+}
+h3 {
+  @include responsive-font(4vw, 28px, $title, $title);
+}
+h4 {
+  @include responsive-font(3vw, 24px, $heading_2, $heading_2);
+}
+h5 {
+  @include responsive-font(2vw, 20px, $heading_2, $heading_2);
+}
+h6 {
+  @include responsive-font(2vw, 18px, $heading_3, $heading_3);
+}
+p {
+  @include responsive-font(1vw, 12px, $body, $body);
+}
