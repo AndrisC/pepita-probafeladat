@@ -11,7 +11,7 @@
     </div>
 
     <div @click="closeMenu()" class="nav-button">
-      <img src="bars-solid.svg" alt="">
+      <img src="~/static/bars-solid.svg" alt="">
     </div>
   </div>
 </template>

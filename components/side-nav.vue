@@ -28,7 +28,7 @@
       </div>
 
       <div v-if="!searchedMenus.length" class="empty-state">
-        <img src="empty.svg" alt="">
+        <img src="~/static/empty.svg" alt="">
         <span>Sorry! No results found...</span>
       </div>
     </div>
@@ -41,37 +41,37 @@ export default {
     return {
       menus: [
         {
-          icon: 'events.svg',
+          icon: '../events.svg',
           name: 'Exhibitions & Events',
           path: 'exhibition',
           disabled: true
         },
         {
-          icon: 'artists.svg',
+          icon: '../artists.svg',
           name: 'Artists & Artworks',
           path: 'artists',
           disabled: true
         },
         {
-          icon: 'collections.svg',
+          icon: '../collections.svg',
           name: 'Collections',
           path: '',
           disabled: false
         },
         {
-          icon: 'tickets.svg',
+          icon: '../tickets.svg',
           name: 'Plan Your Visit',
           path: 'tickets',
           disabled: false
         },
         {
-          icon: 'membership.svg',
+          icon: '../membership.svg',
           name: 'Become a Member',
           path: 'membership',
           disabled: true
         },
         {
-          icon: 'shop.svg',
+          icon: '../shop.svg',
           name: 'Shop',
           path: 'shop',
           disabled: true
